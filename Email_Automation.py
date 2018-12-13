@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 import getpass
-ImgFileName='C:\\Users\\Sahaj\\Desktop\\img.jpg'
+ImgFileName='C:\\Users\\Desktop\\img.jpg'
 img_data=open(ImgFileName,'rb').read()
 msg=MIMEMultipart()
 msg['From']='Your Email'
