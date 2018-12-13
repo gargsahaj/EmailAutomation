@@ -7,7 +7,7 @@ import getpass
 ImgFileName='C:\\Users\\Sahaj\\Desktop\\img.jpg'
 img_data=open(ImgFileName,'rb').read()
 msg=MIMEMultipart()
-msg['From']='gargvishu404@gmail.com'
+msg['From']='Your Email'
 password=getpass.getpass("Enter Your Password: ")
 msg['To']=input("Enter gmail of the recipient: ")
 msg['cc']=input("Enter gmail of another recipient: ")
